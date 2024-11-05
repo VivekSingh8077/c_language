@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int t;
+    scanf("%d", &t);
+    while (t--) {
+        int n, k;
+        scanf("%d %d", &n, &k);
+        if (2 * n >= k * (k + 1)) {
+            printf("yes\n");
+        } else {
+            printf("no\n");
+        }
+    }
+    return 0;
+}
